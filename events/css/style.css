@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-    float: right;
+    float: center;
     margin-right: 20px;
 }
 
@@ -30,28 +30,14 @@ nav ul li a {
 
 }
 .navigation {
-    text-align: right;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    /* display: grid; */
-    /* grid-template-columns: ; */
+    display: grid;
 }
 
 nav a:hover {
     color: #D95F69;
 }
-
-/* .logo {
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    width: 100px;
-    margin-left: 40px;
-    padding-top: 30px;
-} */
-
 .image {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,6 +58,7 @@ nav a:hover {
 
 .container-1 h1 {
     padding-right: 30px;
+    color: #D95F69;
 }
 
 .container-1 img {
@@ -102,6 +89,7 @@ nav a:hover {
 
 .container-2 h1 {
     padding-right: 30px;
+    color: #D95F69;
 }
 
 .container-2 text {
@@ -131,6 +119,7 @@ nav a:hover {
 
 .container-3 h1 {
     padding-right: 30px;
+    color: #D95F69;
 }
 
 .container-3 p {
@@ -148,6 +137,12 @@ h1 {
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.images {
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 /* nav img {
